@@ -6,3 +6,17 @@ html{
     background-size: cover;
     background-position: center right;
 }
+
+body {
+    height: 100%;
+}
+
+#myDiv {
+    margin: 5%;
+    height: 100vh;
+    background-color: white;
+}
+
+#title {
+    text-align: center;
+}
