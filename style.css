@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 html{
     min-height: 100%;
     background-image: url(images/utAustinEdit-min.jpg);
@@ -7,7 +9,75 @@ html{
     background-position: center right;
 }
 
+.header {
+    overflow: hidden;
+    background-color: #bf5700;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #d6d2c4;
+    color: #333f48;
+}
+
+.header a.active {
+    background-color: white;
+    color: #333f48;
+}
+
+.header-right {
+    float: right;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align:left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
 body {
+    margin-top: 100px;
+    margin: 0;
     height: 100%;
 }
 
