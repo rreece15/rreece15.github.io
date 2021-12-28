@@ -9,20 +9,35 @@ html{
     background-position: center right;
 }
 
+.top-container {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+}
+
+.content {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100vh;
+    background-color: white;
+}
+
 .header {
     overflow: hidden;
     background-color: #bf5700;
-    padding: 20px 10px;
-    position: fixed;
+    padding: 5px 10px;
     top: 0;
-    height: 100px;
-    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
 }
 
 .header a {
     float: left;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
@@ -46,7 +61,7 @@ html{
 }
 
 .header-right {
-    float: right;
+    float: center;
 }
 
 .content {
@@ -56,11 +71,11 @@ html{
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 90%;
 }
 
 .sticky + .content {
-    padding-top: 102px;
+    padding-top: 66px;
 }
 
 @media screen and (max-width: 500px) {

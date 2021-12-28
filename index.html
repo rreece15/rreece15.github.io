@@ -6,7 +6,10 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <div class="header">
+        <div class="top-container">
+            <h1 id="title">Title</h1>
+        </div>
+        <div class="header" id="myHeader">
             <a href="#default" class="Reece">Reece Riherd</a>
             <div class="header-right">
                 <a class="active" href="#aboutme">About Me</a>
@@ -14,10 +17,25 @@
                 <a href="#Connect">Connect</a>
             </div>
         </div>
-        <div id="myDiv">
-            <h1 id="title">Title</h1>
+        <div class="content">
             <p>hosted with GitHub pages</p>
         </div>
+
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            
+        </script>
     </body>
 </html>
 
