@@ -52,6 +52,20 @@ body {
   .content {
     padding: 16px;
   }
+
+
+  .profile {
+    padding: 100px;
+    z-index: 99;
+  }
+
+  .profile img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+  }
   
   .sticky {
     width: 100%;
@@ -75,8 +89,10 @@ body {
     }
 }
 
-[about] {
-    @media (min-height: $sticky-breakpoint){
-        scroll-margin-top: 100px;
-    }
+#Education {
+  scroll-margin-top: 3.5em;
+}
+
+#Interests {
+  scroll-margin-top: 3.5em;
 }
