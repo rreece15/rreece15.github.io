@@ -3,17 +3,21 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
 
         <div class="top-container">
+            <div class="popup" onclick="pop()">☰
+                <span class="popupMenu" id="menu">Link</span>
+            </div>
             <h1>Reece Riherd</h1>
         </div>
 
         <div class="header" id="myHeader">
-            <a href="#Education">Education</a>
-            <a href="#Interests">Interests</a>
-            <a href="#SomethingElse">Something Else</a>
+            <a href="#AboutMe">About Me</a>
+            <a href="#Projects">Projects and Experience</a>
+            <a href="#Connect">Connect</a>
         </div>
 
         <div class="content">
@@ -21,19 +25,56 @@
                 <img src="images/profile.jpg">
             </div>
             
-            <h3>On Scroll Sticky Header</h3>
-            <p>The header will stick to the top when you reach its scroll position.</p>
-            <p>Scroll back up to remove the sticky effect.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <h2 id="Education">Education</h2>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <h2 id="Interests">Interests</h2>
+            <h2 id="AboutMe">About Me</h2>
+            <hr class="line">
+            <p>    
+                 Hi! I am currently a sophomore in Computer Engineering at the University of Texas at Austin
+                 with a double major in Arts and Entertainment Technologies, and I am pursuing a technical core 
+                 in Software Engineering. My coursework thus far has a bottom-up foundation, where I started by
+                 learning the microarchitecture of a computer and how gates and logic relate to code. From there, I 
+                 gained experience with Assembly Language (namely ARM) through Introduction to Embedded Systems while
+                 also gaining experience in C through data structures in Software Design and Implementation. This past year,
+                 I have ventured further into software engineering within Software Design and Implementation II, where I
+                  explored more topics relating to data structures and complexity, this time while developing my skills 
+                  in the Java language. This upcoming semester, I plan to take Algorithms.
+            </p>
+            <p>
+                Furthermore, I have been active in the community both within UT and in Austin by acting as a member of
+                various organizations. Within UT, I am a member of the Texas Rocket Engineering Lab, where I have been
+                a member of the Weather Balloon Team since February, 2020, developing various components necessary for 
+                the function of a weather balloon. I am also excited to be starting as a Team Lead! Additionally, I am 
+                a member of IEEE, where I act as a part of a community of electrical and computer engineers to develop the 
+                ECE community at UT Austin and the promotion of professional opportunities. Beyond UT Austin, I am happy to 
+                be a member of Code2College, where I am able to teach underrepresented students both in Austin and nationally
+                to develop a foundation for a career in STEM through bi-weekly classes regarding computer science and its applications.
+            </p>
+            <p>
+                In my past education, I attended Heritage High School in Frisco, Texas, where I enrolled AP courses
+                preparing for my college education, eventually earning a title as a National AP scholar. Simultaneously,
+                 I also took the Harvardx course CS50x, where I was taught the basics of coding from a variety of perspectives,
+                 learning topics such as data analysis, game developement, and data structures in the languages of 
+                 C, Python, SQL, and Lua.
+            </p>
+            <p>
+                Among my interests, I am involved in music, running, weight lifting, and running. I played bass for my school 
+                orchestra in high school, where I participated in Solo&Ensemble and was a member of the regional orchestra.
+                 After high school, I have stayed involved by continuing my practice within both electric and standup bass, 
+                 in addition to playing and developing my skills in guitar. As for running, I participated in the cross-country
+                 team in high school, and I ran the Dallas Half-Marathon in December of 2018. I am proud to be a member of each
+                 of these communities, and look forward to maintaining my interests!
+            </p>
+            <h2 id="Projects">Projects and Experience</h2>
+            <hr class="line">
+            <p></p>
+            <h2 id="Connect">Connect</h2>
+            <hr class="line">
+            <p></p>
+        </div>
+
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/reeceriherd/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/rreece15" class="fa fa-github"></a>
+            <a href="#" class="fa-"></a>
         </div>
 
         <script>

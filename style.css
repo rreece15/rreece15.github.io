@@ -2,6 +2,12 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .content p {
+    text-indent: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   
   .top-container {
     background-color: #bf5700;
@@ -11,11 +17,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    font-size: 30px;
     text-shadow: -1px 1px 0 #000,
                           1px 1px 0 #000,
                          1px -1px 0 #000,
                         -1px -1px 0 #000;
     /*background-position: bottom-right;*/
+  }
+
+  .popup {
+    position: relative
   }
   
   .header {
@@ -36,9 +47,9 @@ body {
     line-height: 25px;
   }
   .header a:hover {
-    background-color: #d6d2c4;
-    box-shadow: 0 0 25px 10px rgba(0,0,0, .25);
-    color: #333f48;
+    background-color: #b15000;
+    /*box-shadow: 0 0 25px 10px rgba(0,0,0, .25);*/
+    color: white;
   }
 
   .header a.active {
@@ -52,6 +63,26 @@ body {
   
   .content {
     padding: 16px;
+    text-align: justify;
+  }
+
+  .content p {
+    text-align: left;
+    font-size: initial;
+    color: #333f48;
+  }
+
+  .content h2 {
+    font-size: xx-large;
+    text-align: center;
+    color: #939799;
+  }
+
+  hr.line {
+    width: 75%;
+    margin-bottom: 30px;
+    border-top: 2px solid #939799;
+    border-radius: 5px;
   }
 
 
@@ -65,6 +96,7 @@ body {
     margin-left:auto;
     margin-right: auto;
     width: 25%;
+    min-width: 300px;
     border-radius: 50%;
   }
   
@@ -90,10 +122,43 @@ body {
     }
 }
 
-#Education {
+#AboutMe {
   scroll-margin-top: 3.5em;
 }
 
-#Interests {
+#Projects {
   scroll-margin-top: 3.5em;
+}
+
+#Connect {
+  scroll-margin-top: 3.5em;
+}
+
+.icons {
+  text-align: center;
+}
+
+.fa {
+  margin: 5%;
+  padding: 20px;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
 }
