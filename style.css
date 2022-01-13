@@ -2,12 +2,6 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-
-  .content p {
-    text-indent: 30px;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
   
   .top-container {
     background-color: #bf5700;
@@ -70,17 +64,37 @@ body {
     text-align: left;
     font-size: initial;
     color: #333f48;
+    text-indent: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   .content h2 {
     font-size: xx-large;
+    text-align: center;
+    color: #333f48;
+  }
+
+  .content h3 {
+    font-size: x-large;
     text-align: center;
     color: #939799;
   }
 
   hr.line {
     width: 75%;
+    height: 5px;
+    background: #333f48;
     margin-bottom: 30px;
+    border-top: 2px solid #333f48;
+    border-radius: 5px;
+  }
+
+  hr.subline {
+    width: 50%;
+    height: 2px;
+    background: #939799;
+    margin-bottom: 0px;
     border-top: 2px solid #939799;
     border-radius: 5px;
   }
@@ -123,15 +137,15 @@ body {
 }
 
 #AboutMe {
-  scroll-margin-top: 3.5em;
+  scroll-margin-top: 3em;
 }
 
 #Projects {
-  scroll-margin-top: 3.5em;
+  scroll-margin-top: 3em;
 }
 
 #Connect {
-  scroll-margin-top: 3.5em;
+  scroll-margin-top: 3em;
 }
 
 .icons {
